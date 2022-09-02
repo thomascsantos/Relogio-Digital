@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 114, 114);
+}
+
+.watch {
+    color: #221e1e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    font-family: 'Francois One', sans-serif;
+    border-radius: 14px;
+    background: rgb(116, 114, 114);
+    box-shadow: -50px -50px 100px #9b9696,
+        50px 50px 100px #272121;
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    .watch {
+        font-size: 120px;
+    }
+}
